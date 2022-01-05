@@ -11,7 +11,7 @@
     <div class="container">
     <h1>FORMULAIRE DE CONTACT</h1>
 
-    <form method="get" action="contact.php">
+    <form method="GET" action="contact.php">
         <fieldset id="identite">
             <legend>Identite</legend>
         <input type="text" name="name" id="name" placeholder="your name">
@@ -21,11 +21,11 @@
         </fieldset>
         <fieldset>
             <legend>Adresse</legend>
-            <textarea id=adresse name=adresse rows=5 required></textarea>
+            <textarea id="adresse" name="adresse" rows=5 required></textarea>
         </fieldset>
         <fieldset>
             <legend>boutons</legend>
-            <button type="submit">envoyer</button>
+            <button type="submit">submit</button>
             <button type="submit">annuler</button>
         </fieldset>
 
@@ -33,5 +33,7 @@
     </form>
 
     </div>
+
+    
 </body>
 </html>
